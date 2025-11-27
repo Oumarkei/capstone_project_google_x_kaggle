@@ -1,0 +1,65 @@
+# .gitignore for SkillMatch AI Capstone Project
+
+-----------------
+
+Python Artifacts
+
+-----------------
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+env/
+venv/
+
+Pip environment management
+
+pip-log.txt
+pip-delete-this-log.txt
+htmlcov/
+.coverage
+
+-----------------
+
+ADK/Session Data
+
+-----------------
+
+SQLite database file used for DatabaseSessionService
+
+my_agent_data.db
+
+-----------------
+
+Dependencies & Third-Party Code
+
+-----------------
+
+cv-forge/
+
+-----------------
+
+Outputs & Logs
+
+-----------------
+
+Log files (if generated)
+
+*.log
+
+Generated outputs (like the tailored CV PDFs)
+
+*.pdf
+
+-----------------
+
+Environment Variables
+
+-----------------
+
+Contains sensitive API keys and paths (MANDATORY)
+
+.env
