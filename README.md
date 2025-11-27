@@ -52,8 +52,8 @@ Built using the Google Agent Development Kit (ADK), this project demonstrates:
 
 ## Step 1: Clone the Repository
 
-git clone https://github.com/votre-username/skillmatch-ai.git
-cd skillmatch-ai
+git clone https://github.com/Oumarkei/capstone_project_google_x_kaggle.git
+cd CapstoneProject
 
 # Create & activate virtual environment
 python3 -m venv .venv
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ## Step 2: Configure Environment Variables
 
-Create a .env file at the root:
+Create a .env file at inside job_search_agents:
 
 # Your Gemini API Key
 GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
@@ -77,7 +77,7 @@ RESUME_PATH=""
 ------------------------------------------------------------
 
 ## Step 3: Set Up the CV Forge MCP Server (Crucial)
-
+Inside the root folder :
 git clone https://github.com/thechandanbhagat/cv-forge.git
 cd cv-forge
 
