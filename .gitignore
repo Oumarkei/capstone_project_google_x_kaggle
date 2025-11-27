@@ -63,3 +63,8 @@ Environment Variables
 Contains sensitive API keys and paths (MANDATORY)
 
 .env
+
+-----------------
+DS Store Files (macOS specific)
+-----------------
+**/.DS_Store
